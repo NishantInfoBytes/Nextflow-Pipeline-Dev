@@ -9,7 +9,7 @@ This Nextflow pipeline is designed for Quality Analysis (QA).
 
 
 ## Requirements
-Nextflow,FastQC,MultiQC
+Nextflow,FastQC,MultiQC And Conda
 
 ## Installation
 1Install using the conda
