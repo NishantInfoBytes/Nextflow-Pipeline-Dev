@@ -20,4 +20,4 @@ Nextflow,FastQC,MultiQC
 ## Usage
 Run the pipeline using the following command:
 
-```bash execute_pipeline.sh
+bash execute_pipeline.sh
