@@ -16,7 +16,6 @@ Nextflow,FastQC,MultiQC
 - [Nextflow][conda install bioconda::nextflow]
 - [FastQC] [conda install bioconda::fastqc]
 - [MultiQC] [conda install -c bioconda multiqc]
-    ```
 
 ## Usage
 Run the pipeline using the following command:
