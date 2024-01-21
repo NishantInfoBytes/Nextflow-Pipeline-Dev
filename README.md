@@ -12,7 +12,7 @@ This Nextflow pipeline is designed for Quality Analysis (QA).
 Nextflow,FastQC,MultiQC And Conda
 
 ## Installation
-1Install using the conda
+Install using the conda
 - [Nextflow][[conda install bioconda::nextflow](https://anaconda.org/bioconda/nextflow)]
 - [FastQC] [[conda install bioconda::fastqc](https://anaconda.org/bioconda/fastqc)]
 - [MultiQC] [[conda install -c bioconda multiqc](https://anaconda.org/bioconda/multiqc)]
