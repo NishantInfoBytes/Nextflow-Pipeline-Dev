@@ -6,13 +6,7 @@ This Nextflow pipeline is designed for Quality Analysis (QA).
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Pipeline Steps](#pipeline-steps)
-- [Configuration](#configuration)
-- [Output](#output)
-- [Example](#example)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Requirements
 Nextflow,FastQC,MultiQC
