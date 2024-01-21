@@ -1,0 +1,3 @@
+sampleID,read1,read2
+testdata1,/home/nishant.shekhar/nextflow-pipeline/rna-seq/data/testdata1_1.fastq.gz,/home/nishant.shekhar/nextflow-pipeline/rna-seq/data/testdata1_2.fastq.gz
+testdata1,/home/nishant.shekhar/nextflow-pipeline/rna-seq/data/testdata2_1.fastq.gz,/home/nishant.shekhar/nextflow-pipeline/rna-seq/data/testdata2_2.fastq.gz
