@@ -21,6 +21,6 @@ Install using the conda
 ## Usage
 Run the pipeline using the following command:
 
-        nextflow run mai.nf --workflows quality_check_analysis 
+        nextflow run main.nf --workflows quality_check_analysis 
                   OR
-        nextflow run mai.nf --workflows quality_check
+        nextflow run main.nf --workflows quality_check
