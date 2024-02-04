@@ -1,7 +1,7 @@
-# Nextflow QA Analysis Pipeline
+# Nextflow QA-Check-Analysis Pipeline
 
 ## Overview
-This Nextflow pipeline is designed for Quality Analysis (QA).
+This Nextflow pipeline is designed for Quality Check and Analysis (QA) using workflows.
 ## Table of Contents
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -9,15 +9,18 @@ This Nextflow pipeline is designed for Quality Analysis (QA).
 
 
 ## Requirements
-Nextflow,FastQC,MultiQC And Conda
+Nextflow,FastQC,MultiQC And FastP
 
 ## Installation
 Install using the conda
-- [Nextflow][[conda install bioconda::nextflow](https://anaconda.org/bioconda/nextflow)]
-- [FastQC] [[conda install bioconda::fastqc](https://anaconda.org/bioconda/fastqc)]
-- [MultiQC] [[conda install -c bioconda multiqc](https://anaconda.org/bioconda/multiqc)]
+- Nextflow [(https://anaconda.org/bioconda/nextflow)]
+- FastQC [(https://anaconda.org/bioconda/fastqc)]
+- MultiQC [(https://anaconda.org/bioconda/multiqc)]
+- FastP [(https://anaconda.org/bioconda/fastp)]
 
 ## Usage
 Run the pipeline using the following command:
 
-bash execute_pipeline.sh
+        nextflow run mai.nf --workflows quality_check_analysis 
+                  OR
+        nextflow run mai.nf --workflows quality_check
