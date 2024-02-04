@@ -13,13 +13,14 @@ Nextflow,FastQC,MultiQC And FastP
 
 ## Installation
 Install using the conda
-- Nextflow (https://anaconda.org/bioconda/nextflow)
-- FastQC (https://anaconda.org/bioconda/fastqc)
-- MultiQC (https://anaconda.org/bioconda/multiqc)
+- Nextflow [(https://anaconda.org/bioconda/nextflow)]
+- FastQC [(https://anaconda.org/bioconda/fastqc)]
+- MultiQC [(https://anaconda.org/bioconda/multiqc)]
+- FastP [(https://anaconda.org/bioconda/fastp)]
 
 ## Usage
 Run the pipeline using the following command:
 
-## nextflow run mai.nf --workflows quality_check_analysis 
+        nextflow run mai.nf --workflows quality_check_analysis 
                   OR
-## nextflow run mai.nf --workflows quality_check
+        nextflow run mai.nf --workflows quality_check
