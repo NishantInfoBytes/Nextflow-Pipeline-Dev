@@ -26,4 +26,5 @@ Run the pipeline using the following command if you have different workflows in 
         nextflow run main.nf --workflows quality_check
         
 If we have only one main workflow, use the following command:
+        
         nextflow run main1.nf
