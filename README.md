@@ -19,8 +19,11 @@ Install using the conda
 - FastP [(https://anaconda.org/bioconda/fastp)]
 
 ## Usage
-Run the pipeline using the following command:
+Run the pipeline using the following command if you have different workflows in your workflow folder:
 
         nextflow run main.nf --workflows quality_check_analysis 
                   OR
         nextflow run main.nf --workflows quality_check
+        
+If we have only one main workflow, use the following command:
+        nextflow run main1.nf
